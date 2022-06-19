@@ -5,6 +5,7 @@ import LandingSection from '../components/LandingSection';
 import InfoSection from '../components/InfoSection';
 import { homeObjone, homeObjtwo, homeObjthree } from '../components/InfoSection/Data';
 import People from '../components/PeopleSection';
+import Footer from '../components/FooterSection';
 
 
 const Home = () => {
@@ -27,6 +28,7 @@ const Home = () => {
     <InfoSection {...homeObjtwo} />
     <People/>
     <InfoSection {...homeObjthree} />
+    <Footer/>
     </>
     
   );

@@ -91,7 +91,8 @@ cursor: pointer;
 font-size: 1.2rem;
 
 &.active{
-    border-bottom: 3px solid #01bbf71;
+    border-bottom: 3px solid #01bf71;
+
 }
 
 `;
