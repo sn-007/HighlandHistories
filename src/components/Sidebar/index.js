@@ -19,8 +19,8 @@ const  Sidebar = ({open, toggle}) =>  {
                     Discover
                 </SidebarLink>
 
-                <SidebarLink to = 'services' onClick={toggle}>
-                    Services
+                <SidebarLink to = 'people' onClick={toggle}>
+                    People
                 </SidebarLink>
 
                 <SidebarLink to = 'signup' onClick={toggle}>

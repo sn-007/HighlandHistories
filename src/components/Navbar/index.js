@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom';
+//import { NavLink } from 'react-router-dom';
 import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLik } from './NavbarElements';
 import { FaBars } from 'react-icons/fa';
 
@@ -10,7 +10,7 @@ const  Navbar = ({toggle}) => {
 
         <NavbarContainer>
 
-            <NavLogo to ="/">HSRG</NavLogo>
+            <NavLogo to ="home" smooth={true} duration={500} spy={true} exact={true}>IIITH</NavLogo>
 
             <MobileIcon onClick={toggle}>
                 <FaBars />
@@ -18,25 +18,25 @@ const  Navbar = ({toggle}) => {
 
             <NavMenu>
                 <NavItem>
-                <NavLinks to = "about">About</NavLinks>
+                <NavLinks to = "about" smooth={true} duration={500} spy={true} exact={true} offset={-80}>About</NavLinks>
                 </NavItem>
 
                 <NavItem>
-                <NavLinks to = "discover">Discover</NavLinks>
+                <NavLinks to = "discover" smooth={true} duration={500} spy={true} exact={true} >Discover</NavLinks>
                 </NavItem>
 
                 <NavItem>
-                <NavLinks to = "services">Services</NavLinks>
+                <NavLinks to = "people" smooth={true} duration={500} spy={true} exact={true}>People</NavLinks>
                 </NavItem>
 
                 <NavItem>
-                <NavLinks to = "signup">Sign up</NavLinks>
+                <NavLinks to = "subscribe" smooth={true} duration={500} spy={true} exact={true}>Subscribe</NavLinks>
                 </NavItem>
             </NavMenu>
 
             <NavBtn>
 
-                <NavBtnLik to = "/signup">Sign In </NavBtnLik>
+                <NavBtnLik to = "">Data Archive </NavBtnLik>
             </NavBtn>
 
 
