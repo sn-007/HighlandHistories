@@ -12,17 +12,17 @@ const Footer = () => {
                     <FooterLinksWrapper>
                         <FooterLinkItems>
                             <FooterLinkTitle> About us</FooterLinkTitle>
-                            <FooterLink to='home'>How it works</FooterLink>
-                            <FooterLink to='home'>Publications</FooterLink>
-                            <FooterLink to='home'>Careers</FooterLink>
-                            <FooterLink to='home'>Terms of Service</FooterLink>
+                            <FooterLink to='/'>How it works</FooterLink>
+                            <FooterLink to='/'>Publications</FooterLink>
+                            <FooterLink to='/'>Careers</FooterLink>
+                            <FooterLink to='/'>Terms of Service</FooterLink>
                         </FooterLinkItems>
 
                         <FooterLinkItems>
                             <FooterLinkTitle> Videos</FooterLinkTitle>
-                            <FooterLink to='home'>Oral History</FooterLink>
-                            <FooterLink to='home'>Ambassadors</FooterLink>
-                            <FooterLink to='home'>Agency</FooterLink>
+                            <FooterLink to='/'>Oral History</FooterLink>
+                            <FooterLink to='/'>Ambassadors</FooterLink>
+                            <FooterLink to='/'>Agency</FooterLink>
 
                         </FooterLinkItems>
 
@@ -31,17 +31,17 @@ const Footer = () => {
                     <FooterLinksWrapper>
                         <FooterLinkItems>
                             <FooterLinkTitle> Social</FooterLinkTitle>
-                            <FooterLink to='home'>Instagram</FooterLink>
-                            <FooterLink to='home'>Email</FooterLink>
-                            <FooterLink to='home'>Facebook</FooterLink>
-                            <FooterLink to='home'>Twitter</FooterLink>
+                            <FooterLink to='/'>Instagram</FooterLink>
+                            <FooterLink to='/'>Email</FooterLink>
+                            <FooterLink to='/'>Facebook</FooterLink>
+                            <FooterLink to='/'>Twitter</FooterLink>
                         </FooterLinkItems>
 
                         <FooterLinkItems>
                             <FooterLinkTitle> Openings</FooterLinkTitle>
-                            <FooterLink to='home'> Roles</FooterLink>
-                            <FooterLink to='home'>Our Alumni</FooterLink>
-                            <FooterLink to='home'>Contact us</FooterLink>
+                            <FooterLink to='/'> Roles</FooterLink>
+                            <FooterLink to='/'>Our Alumni</FooterLink>
+                            <FooterLink to='/'>Contact us</FooterLink>
                         </FooterLinkItems>
 
                     </FooterLinksWrapper>

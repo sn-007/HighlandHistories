@@ -41,7 +41,7 @@ const  Sidebar = ({open, toggle}) =>  {
             </SidebarMenu>
 
             <SideBtnWrap>
-                <SidebarRoute to = '/signin'> Sign In </SidebarRoute>
+                <SidebarRoute to = '/'> Data Archive </SidebarRoute>
             </SideBtnWrap>
 
         </SidebarWrapper>

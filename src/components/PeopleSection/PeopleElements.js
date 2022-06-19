@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const PeopleContainer = styled.div`
 
-height: 100vh;
+height: 90vh;
 display: flex;
 flex-direction: column;
 align-items: center;

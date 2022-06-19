@@ -46,6 +46,17 @@ font-weight: bold;
 text-decoration: none;
 `;
 
+export const NewLogo = styled.img`
+justify-self: flex-start;
+cursor: pointer;
+width: 158px;
+height: 74px;
+display: flex;
+align-items: center;
+margin-left: 24px;
+
+`;
+
 
 export const MobileIcon = styled.div`
 display: none;
